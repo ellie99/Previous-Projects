@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+* {
+	margin: 0;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: rgb(249,250,250);
+}
+
+.margin {
+	width: 978px;
+	margin: 0 auto;
+}
+
+nav {
+	float: right;
+	width: 100%;
+	border-bottom: solid 1px rgb(211, 211 ,95); 
+	margin-bottom: 10px;
+}
+
+.active {
+	background-image: -moz-linear-gradient(to bottom, #fbfcf2, #e5f0ae);
+	background-image: linear-gradient(to bottom, #fbfcf2, #e5f0ae);
+	color: black;
+	border-top: solid 1px rgb(211, 211 ,95);
+	border-left: solid 1px rgb(211, 211 ,95);
+	border-right: solid 1px rgb(211, 211 ,95);
+	border-bottom: solid 1px #e5f0ae;
+}
+
+ul {
+	display: block;
+	width: 978px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {float: right;} 
+
+li a {
+	display: block;
+	height: 25px;
+	border: solid 1px black;
+	border-radius: 5px 5px 0 0;
+	border-color: rgb(143, 173, 23);
+	background-image: -moz-linear-gradient(to bottom, #93c800, #5f8100);
+	background-image: linear-gradient(to bottom, #93c800, #5f8100);
+	text-decoration: none;
+	padding: 1px 10px;
+	margin: 0px 2px 0 2px;
+	color: white;
+	
+}
+
+li > a:hover {
+	color: black;
+	background-image: -moz-linear-gradient(to bottom, #dbea8f, #dbea8f);
+	background-image: linear-gradient(to bottom, #dbea8f, #dbea8f);
+	border-bottom: none;
+
+}
+
+#name {
+	float: right;
+	margin-top: 10px;
+}
+
+.float {
+	float: left;
+}
+
+div.float > div.boxes1 > a, div.float > div.boxes2 > a  {
+	color: rgb(117, 135, 138);
+}
+
+div.float > div.boxes1 > a:hover, div.float > div.boxes2 > a:hover {
+	text-decoration: none;
+	color: rgb(120, 163, 0);
+}
+
+
+.boxes1, .boxes2 {
+	display: block;
+	border: solid 1px;
+	border-color: rgb(183, 193, 194);
+	padding: 7px 15px;
+	border-radius: 10px 10px 0 0;
+	width: 180px;
+	font-size: 14px; 
+	text-align: center;
+}
+
+.boxes1 {
+	margin: 5px 5px 5px 0;
+}
+
+.boxes2 {
+	margin: 5px 0 5px 5px;
+}
+
+#center {
+	margin: 5px;
+	width: 534px;
+}
+
+footer {
+	clear: both;
+}
+
+blockquote > img {
+	float: left;
+	margin-right: 5px;
+}
+
+blockquote {
+	margin: 20px 0;
+	padding: 0px;
+	display: block;
+	background-color: rgb(227, 231, 232);
+	height: 122px;
+	width: 534px;
+	
+}
+
+#pquote {
+	padding: 10px;
+}
+
+div#quote > a {
+	float: right;
+	margin: 0 10px 20px 0;
+	text-decoration: none;
+	color: black;
+}
+
+div#quote > a:hover {
+	text-decoration: underline;
+}
+
+em {
+	float: left;
+	margin-right: 10px;
+	font-size: 50px;
+	color: rgb(108, 126, 22);
+}
+
+h1 + h1 {
+	margin: 30px 0 30px 0;
+}
+
+div > h1 {
+	font-size: 18px;
+	color: rgb(20, 133, 225);
+}
+
+div > h3 {
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+div#center > p {
+	margin: 10px 0;
+}
+
+div#center > a {
+	text-decoration: none;
+	margin: 10px 0;
+	color: black;
+}
+
+div#center > a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: rgb(71, 97, 0);
+	color: white;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+div#footerw > div > h2 {
+	padding-left: 10px;
+	font-size: 16px;
+	color: white;
+	font-style: bold;
+	border-bottom: solid 1px white;
+}
+
+div#footerw > p {
+	clear: both;
+}
+
+
+.footer {
+	float: left;
+	
+}
+
+#footerw {
+	width: 978px;
+	margin: 0 auto;
+}
+
+#hlone { float: left; margin-top: 10px;}
+#hltwo { float: right; margin-top: 10px; }
+
+#follow { 
+	display: block;
+	width: 200px;
+	margin: 0 50px 50px 0;
+	 
+}
+
+#vruzki {
+	display: block;
+	width: 400px;
+	width: 0 50px; 
+}
+
+#kachestvo { 
+	display: block;
+	width: 278px;
+	margin: 0 0 50px 50px; 
+} 
+
+div#hlone > a, div#hltwo > a {
+	text-decoration: none;
+	color: white;
+}
+
+div#kachestvo > img, div#follow > img {
+	display: block;
+	margin: 10px auto;
+}
+
+footer p {
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+#copyright {
+
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="margin">
+<header>
+   <img name="logo" id="logo" src="Images/apricus.png"> 
+   <img name="SunChlorella" id="name" src="Images/logo.png">
+</header>
+</div>
+
+<nav>
+<ul>
+   <li> <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-15" id="kontakti"> Контакти </a> </li>
+   <li> <a href="http://shop.sunchlorella.bg/"> Магазин </a> </li>
+   <li> <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-13"> Sun Chlorella Corp </a> </li>
+   <li> <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-8"> Продукти </a> </li>
+   <li> <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-2"> За Chlorella </a> </li>
+   <li> <a class="active" href="http://www.sunchlorella.bg/sc/"> Начало </a> </li>
+</ul>
+</nav>
+
+
+
+
+
+<div class="margin">
+
+<div id="banner">
+   <img src="Images/banner.png"/>
+</div>
+
+
+
+<div id="first" class="float">
+<div id="one" class="boxes1" >
+   <img src="Images/cream_klonka-4.png"/> </br>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-8/ct-menu-item-11"> Необходимите вещества за здравето и възстановяването на Вашата кожа </a>
+</div>
+<div id="two" class="boxes1">
+   <img src="Images/vegetables-3.png"> </> </br>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-2/ct-menu-item-4"> Суперхраните съдържат голямо количество жизненоважни хранителни вещества, в малък обем </a>
+</div>
+<div id="three" class="boxes1">
+   <img src="Images/Pulverized.png"> </br>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-2/ct-menu-item-7"> Само Sun Chlorella съдържа 95% - 99% пулверизирана хлорела, благодарениe на нашия патентован Dyno® - mill процес. </a>
+</div>
+<div id="four" class="boxes1">
+   <img src="Images/tabl_Klonka.png"> </br>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-8/ct-menu-item-9"> Sun Chlorella не съдържа изкуствени оцветители и ароматизатори </a>
+</div>
+</div>
+
+<div id="center" class="float">
+   <h1> Sun Chlorella </h1>
+   <h1> Sun Chlorella "A" - Перфектна Суперхрана от Природата &reg; </h1>
+   <blockquote>
+      <img src="Images/nature.png">
+      <div id="quote"> <em> " </em> <p id="pquote"> Здравето не е "подарък", за постигането му всеки човек е отговорен, чрез полаганите от него ежедневни усилия! </p> 
+      <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-13">  - Хидео Накаяма - </a> </div>
+   </blockquote>
+   <h3> Към по-добро хранене чрез Sun Chlorella "A" </h3>
+   <p> Chlorella /хлорела/ е позната като Перфектната Суперхрана ®, защото тя съдържа широк спектър от хранителни вещества, които сами по себе си са достъпни, но в отделни хранителни източници. </p>
+   <p> Sun Chlorella продуктите Ви осигуряват всичко това, като същевременно Вие приемате само 15 калории дневно в резултат на тяхното използване. </p>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-2/ct-menu-item-3"> Научете повече за Sun Chlorella...>> </a>
+   <h3> Ползите от хлорела /chlorella/ </h3>
+   <p> Sun Chlorella подпомага естественият процес на детоксикация на Вашето тяло. </p>
+   <p> Химикалите в храната, водата и въздуха попадат и се натрупват в нашите тела. Естественият процес на детоксикация е чрез изпражненията, урината и потта. По този начин се изхвърлят част от натрупаните токсини. Sun Chlorella подпомага по напълно естествен път процесите на детоксикация на организма. </p>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-8/ct-menu-item-9"> Научете повече за ползите от Sun Chlorella…>> </a>
+   <h3> Sun Chlorella – Перфектната Суперхрана </h3>
+   <p> Защо хлорела е Перфектна Суперхрана? Тя е напълно естествен природен продукт при който е необходима минимална обработка /усъвършенстване/ преди да бъде консумирана. Хлорела е класифицирана като богата на хранителни вещества пълноценна храна, която може да се използва в своята цялост. </p>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-2/ct-menu-item-6"> Научетe повече за Dyno-Mill ® и Sun Chlorella производствения процес...>> </a>
+</div>
+
+<div id="second" class="float">
+<div id="five" class="boxes2">
+   <img src="Images/logo-2.png" /> </br>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-13"> 
+   Повече от 40 години Sun Chlorella Corp. допринася за здравето на хората в Япония и по света. </a>
+</div>
+<div id="six" class="boxes2">
+   <img src="Images/Monde2011-2.png" /> </br>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-24"> ГОЛЯМА ЗЛАТНА НАГРАДА от MONDE SELECTION - Белгия </a> 
+</div>
+<div id="seven" class="boxes2">
+   <img src="Images/wakasa.png" /> </br>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-8/ct-menu-item-10"> Изключително богата на аминокиселини за изграждане на здрави клетки в тялото </a>
+</div>
+<div id="eight" class="boxes2">
+   <img src="Images/gmp-3.png" /> </br>
+   <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-2/ct-menu-item-6"> Производствен процес с постоянен контрол върху качеството  </a>
+</div>
+</div>
+</div>
+
+<footer>
+   <div id="footerw">
+   <div id="follow" class="footer">
+      <h2> Последвайте ни </h2> 
+      <img src="Images/facebook.png"> 
+   </div>
+   <div id="vruzki" class="footer">
+      <h2> Полезни връзки </h2> 
+      <div id="hlone">
+         <a href="http://www.sunchlorella.bg/sc/"> Начало </a> </br>
+         <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-2"> За Chlorella </a> </br>
+         <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-8"> Продукти </a> </br>
+         <a href="http://shop.sunchlorella.bg/"> Магазин </a> </br>
+      </div>
+      <div id="hltwo"> 
+         <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-22"> Декларация за поверителност </a> </br>
+         <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-21"> Условия за ползване </a> </br>
+         <a href="http://www.sunchlorella.bg/sc/index.php/ct-menu-item-15"> Контакти </a> </br>
+      </div>
+   </div>
+   <div id="kachestvo" class="footer">
+      <h2> Качество </h2> 
+      <img src="Images/mnogosa.png" />
+   </div>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Информацията, предоставена на този сайт, не замества по никакъв начин консултацията  лице в лице с Вашия личен лекар или др. медицински специалист и не следва да се тълкува като индивидуална медицинска помощ или медицински съвет. Консултирайте се с Вашия личен лекар или др. медицински специалист преди да предприемете каквито и да било промени във Вашите здравни навици: диети, упражнения и т.н. Ако състоянието Ви не се промени, моля, свържете се с Вашия личен лекар или друг медицински специалист. </p>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Резултатите ще бъдат различни. Всички атестации в този сайт са направени от реални хора и отразяват единствено и само индивидуалните им резултати. Тези твърдения не са оценени от Министерството на здравеопазването на Република България или друг компетентен орган или организация. Продуктите, представени в този сайт, не са предназначени за диагностициране, лекуване или предотвратяване на всяко едно заболяване. </p>
+   <div id="copyright"> 
+      <p> Copyright &copy; 2013 Apricus Ltd. All Rights Reserved. </p>
+   </div>
+   </div>
+</footer>
+
+
+
+</body>
+</html>
